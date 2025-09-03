@@ -1,0 +1,13 @@
+com\tuservidor\serverguard\listeners\PlayerUseItemListener.class
+com\tuservidor\serverguard\listeners\BlockPlaceListener.class
+com\tuservidor\serverguard\commands\RegionCommand.class
+com\tuservidor\serverguard\listeners\MobSpawningListener.class
+com\tuservidor\serverguard\listeners\BlockBreakListener.class
+com\tuservidor\serverguard\listeners\SelectionListener.class
+com\tuservidor\serverguard\listeners\ForceSpawnListener.class
+com\tuservidor\serverguard\listeners\PlayerRegionListener.class
+com\tuservidor\serverguard\objects\Region.class
+com\tuservidor\serverguard\listeners\PvpListener.class
+com\tuservidor\serverguard\managers\RegionManager.class
+com\tuservidor\serverguard\tasks\TimeSyncTask.class
+com\tuservidor\serverguard\ServerGuard.class

@@ -1,0 +1,14 @@
+com\tuservidor\simpleworldedit\commands\WandCommand.class
+com\tuservidor\simpleworldedit\commands\SetCommand.class
+com\tuservidor\simpleworldedit\objects\BlockChange.class
+com\tuservidor\simpleworldedit\commands\SetGUI.class
+com\tuservidor\simpleworldedit\commands\CopyCommand.class
+com\tuservidor\simpleworldedit\listeners\WandListener.class
+com\tuservidor\simpleworldedit\managers\HistoryManager.class
+com\tuservidor\simpleworldedit\objects\Selection.class
+com\tuservidor\simpleworldedit\SimpleWorldEdit.class
+com\tuservidor\simpleworldedit\commands\ClearCommand.class
+com\tuservidor\simpleworldedit\objects\BlockInfo.class
+com\tuservidor\simpleworldedit\objects\Clipboard.class
+com\tuservidor\simpleworldedit\commands\PasteCommand.class
+com\tuservidor\simpleworldedit\commands\UndoCommand.class

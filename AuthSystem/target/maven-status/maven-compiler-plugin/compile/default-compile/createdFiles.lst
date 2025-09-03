@@ -1,0 +1,7 @@
+com\tuservidor\authsystem\commands\LoginCommand.class
+com\tuservidor\authsystem\listeners\AuthListener.class
+com\tuservidor\authsystem\listeners\AuthListener$1.class
+com\tuservidor\authsystem\commands\RegisterCommand.class
+com\tuservidor\authsystem\AuthSystem.class
+com\tuservidor\authsystem\managers\AuthManager.class
+com\tuservidor\authsystem\listeners\AuthListener$2.class

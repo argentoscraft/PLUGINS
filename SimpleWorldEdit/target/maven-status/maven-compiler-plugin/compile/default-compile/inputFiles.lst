@@ -1,0 +1,14 @@
+S:\PLUGINS\SimpleWorldEdit\src\main\java\com\tuservidor\simpleworldedit\commands\ClearCommand.java
+S:\PLUGINS\SimpleWorldEdit\src\main\java\com\tuservidor\simpleworldedit\commands\CopyCommand.java
+S:\PLUGINS\SimpleWorldEdit\src\main\java\com\tuservidor\simpleworldedit\commands\PasteCommand.java
+S:\PLUGINS\SimpleWorldEdit\src\main\java\com\tuservidor\simpleworldedit\commands\SetCommand.java
+S:\PLUGINS\SimpleWorldEdit\src\main\java\com\tuservidor\simpleworldedit\commands\SetGUI.java
+S:\PLUGINS\SimpleWorldEdit\src\main\java\com\tuservidor\simpleworldedit\commands\UndoCommand.java
+S:\PLUGINS\SimpleWorldEdit\src\main\java\com\tuservidor\simpleworldedit\commands\WandCommand.java
+S:\PLUGINS\SimpleWorldEdit\src\main\java\com\tuservidor\simpleworldedit\listeners\WandListener.java
+S:\PLUGINS\SimpleWorldEdit\src\main\java\com\tuservidor\simpleworldedit\managers\HistoryManager.java
+S:\PLUGINS\SimpleWorldEdit\src\main\java\com\tuservidor\simpleworldedit\objects\BlockChange.java
+S:\PLUGINS\SimpleWorldEdit\src\main\java\com\tuservidor\simpleworldedit\objects\BlockInfo.java
+S:\PLUGINS\SimpleWorldEdit\src\main\java\com\tuservidor\simpleworldedit\objects\Clipboard.java
+S:\PLUGINS\SimpleWorldEdit\src\main\java\com\tuservidor\simpleworldedit\objects\Selection.java
+S:\PLUGINS\SimpleWorldEdit\src\main\java\com\tuservidor\simpleworldedit\SimpleWorldEdit.java

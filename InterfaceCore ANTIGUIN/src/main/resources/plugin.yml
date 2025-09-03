@@ -1,0 +1,17 @@
+name: InterfaceCore
+version: 1.0
+main: com.tuserverdor.interfacecore.InterfaceCore
+api-version: '1.20'
+author: TuNombre
+description: Gestiona la interfaz visual del servidor (Tablist, Scoreboard, etc).
+depend: [RankSystem, SimpleEconomy] 
+commands:
+  tienda:
+    description: Muestra el enlace a la tienda del servidor.
+    aliases: [store, web]
+  reloj:
+    description: Activa o desactiva el reloj en pantalla.
+    permission: interfacecore.reloj.toggle
+  sb:
+    description: Activa o desactiva la scoreboard.
+    permission: interfacecore.sb.toggle

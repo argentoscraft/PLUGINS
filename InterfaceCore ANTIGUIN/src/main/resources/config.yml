@@ -1,0 +1,82 @@
+# Pon aquí la IP y la URL de la tienda, que son globales
+server-ip: 'jugar.argentoscraft.com'
+store-url: 'https://argentoscraft.store'
+
+reloj:
+  timezone: "America/Argentina/Buenos_Aires"
+
+# --- NUEVA ESTRUCTURA DE INTERFAZ ---
+# 'default' se usará para cualquier mundo que no esté específicamente listado abajo.
+default:
+  tablist:
+    header: |
+      <white>
+      <bold><gradient:#75C8FF:#FFFFFF> A R G E N T O S C R A F T </gradient></bold>
+      <gray>Lobby Principal</gray>
+    footer: |
+      <gold>Jugadores: <white>%online_players%</white>
+      <gold>Ping: <white>%player_ping% ms</white>
+  scoreboard:
+    title: "<bold><gradient:#75C8FF:#FFFFFF>LOBBY</gradient></bold>"
+    lines:
+      - "&7&m--------------------"
+      - " &fBienvenido, &b%player_name%"
+      - " "
+      - " &fRango: %rank_prefix%"
+      - "  "
+      - " &fMundo: &a%world_name%"
+      - " &fJugadores: &a%online_players%"
+      - "   "
+      - " &dTienda: &f/tienda"
+      - " &eIP: &b%server_ip%"
+      - "&7&m-------------------- "
+
+# Puedes añadir tantas secciones como mundos tengas.
+# Los nombres deben ser exactos a como se llaman tus mundos (ej: 'world', 'world_nether', 'prision_a').
+worlds:
+  survival:
+    tablist:
+      header: |
+        <white>
+        <bold><gradient:#22c55e:#a3e635> S U R V I V A L </gradient></bold>
+        <gray>Sobrevive y crea tu leyenda</gray>
+      footer: |
+        <gold>Jugadores: <white>%online_players%</white>
+        <gold>Ping: <white>%player_ping% ms</white>
+    scoreboard:
+      title: "<bold><gradient:#22c55e:#a3e635>SURVIVAL</gradient></bold>"
+      lines:
+        - "&7&m--------------------"
+        - " &fJugador: &b%player_name%"
+        - " "
+        - " &fRango: %rank_prefix%"
+        - " &fDinero (Survival): &ePróximamente..."
+        - "  "
+        - " &fMundo: &a%world_name%"
+        - " &fJugadores: &a%online_players%"
+        - "   "
+        - " &eIP: &b%server_ip%"
+        - "&7&m-------------------- "
+  prision_op:
+    tablist:
+      header: |
+        <white>
+        <bold><gradient:#ef4444:#facc15> P R I S I Ó N   O P </gradient></bold>
+        <gray>¡Mina sin parar para ser el mejor!</gray>
+      footer: |
+        <gold>Jugadores: <white>%online_players%</white>
+        <gold>Ping: <white>%player_ping% ms</white>
+    scoreboard:
+      title: "<bold><gradient:#ef4444:#facc15>PRISIÓN OP</gradient></bold>"
+      lines:
+        - "&7&m--------------------"
+        - " &fJugador: &b%player_name%"
+        - " "
+        - " &fRango: %rank_prefix%"
+        - " &fDinero: &e$%balance%"
+        - " &fMina Actual: &cZ"
+        - "  "
+        - " &fJugadores: &a%online_players%"
+        - "   "
+        - " &eIP: &b%server_ip%"
+        - "&7&m-------------------- "
